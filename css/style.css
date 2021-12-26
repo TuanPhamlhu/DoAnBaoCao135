@@ -93,6 +93,8 @@
     box-sizing: border-box;
     position: sticky;
     z-index: 1;
+    box-shadow: 0px 9px 14px -6px rgb(0 0 0 / 10%);
+    
     top:0;
 }
 
@@ -186,6 +188,10 @@
 }
 .div1:hover .header1phone{ 
     color:rgb(212, 212, 212);
+}
+.giohangi{
+   
+   
 }
 
 .header-social-phone1:hover .header-social-phone-box{ 
@@ -440,6 +446,10 @@
     width: 250px;
     height: 250px;
     object-fit: cover;
+    transition-duration: 0.3s;
+}
+.imgsp:hover{
+    transform: scale(1.04);
 }
 
 .sanpham{
@@ -743,6 +753,242 @@
     font-family: 'Roboto', sans-serif;
     color: var(--primarytext--);
 }
+#wrapper{
+    box-sizing: border-box;
+}
+
+.tablet
+{
+    display:none;
+}
+
+/* Mobile */
+#mobileHeader2{
+    display: none;
+}
+
+
+
+
+/* Responsive */
+
+/* Mobile: width < 740px */
+@media only screen and (max-width: 46.1875em) {
+    #respon{
+        max-width:46.1875rem;
+         box-sizing: border-box;
+    }
+    #wrapper{
+        max-width:46.1875rem;
+        box-sizing: border-box;
+      
+    }
+    #header1{
+        
+        display: flex;
+        padding:0px 0px;
+        max-width:46.1875rem;
+    }
+    
+    .header1trai{
+        margin: auto;
+        min-width: 1rem;
+    }
+  
+    .header1phai{
+        display:none
+    }
+    .header1phaichildren{
+        margin-right: 0px;
+    }
+    .header2input{
+        display: none;
+    }
+    .giohang{
+        display: none;
+    }
+    .main-product{
+        display: none;
+    }
+    .policymain{
+        display: none;
+    }
+    #footer{
+        display: none;
+    }
+    #header2nav{
+        display: none;
+    }
+    .header2giohang{
+        display: none;
+    }
+
+    /* header2 */
+    #mobileHeader2{
+       height: 70px;
+       /* background-color: rgb(152, 152, 156); */
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .header2logo{
+        display: none;
+    }
+
+    /* Giỏ Hàng */
+    .giohanga{
+        font-size: 2.7rem;
+        color: rgb(0 0 0);
+    }
+    .fa-cart-arrow-down{
+        color:rgb(151, 148, 148);
+    }
+
+    .header2logoimg{
+        width: 60px;
+        margin: auto;
+    }
+   .fa-barsa{
+        font-size:2rem;
+        margin-left: 1.5rem;
+        margin-top: 23px;
+    }
+
+    /* Sản phẩm */
+    #root{
+        display:none;
+    }
+
+    /* Banner */
+    .section-bg-phone{
+        display:none;
+    }
+    
+}
+
+/* tablet: width 669px< x < 1023px */
+@media only screen and (min-width: 42.65em) and (max-width: 63.9375em) {
+    #wrapper{
+        display: none;
+    }
+    .tablet{
+        display: block;
+        width: 80%;
+        height: 70px;
+        background-color: #d7d7d7;
+        margin: auto;
+        box-shadow: 10px 10px 10px grey;
+        border-radius: 10px;
+    
+    }
+    .tablet p{
+        color: #2f2f2f;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 100px;
+        line-height: 70px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -921,9 +1167,39 @@ a{
     padding: 10px;
     z-index: 2;
 }
+
+.giohang:hover {
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+  }
+   
+  @keyframes shake {
+    10%, 90% {
+      transform: translate3d(-1px, 0, 0);
+    }
+    
+    20%, 80% {
+      transform: translate3d(2px, 0, 0);
+    }
+   
+    30%, 50%, 70% {
+      transform: translate3d(-4px, 0, 0);
+    }
+   
+    40%, 60% {
+      transform: translate3d(4px, 0, 0);
+    }
+  }
 #countsp
-{
-    color:var(--primarytext--)
+{ 
+    color: rgb(117, 117, 117);
+    margin-left: -30px;
+    font-size: 1.8rem;
+    margin-right: 30px;
+    font-weight: 300;
+  
 }
 
 

@@ -74,6 +74,13 @@ function showcart()
               }
           }
 
+//Khi Nhấn chữ giỏ hàng
+var Nutgiohang= document.querySelector(".header2giohangitem")
+Nutgiohang.addEventListener("click",()=>{
+    showcart()
+})
+
+
 //hàm đếm số lượng sản phẩm đã đặt
 function showcountsp() {
             var cartItem = document.querySelectorAll("tbody tr")
@@ -142,6 +149,8 @@ var Render = Sanpham.map((item)=>{
             deleteCart()
     }
     
+
+
 
 
 // Total
