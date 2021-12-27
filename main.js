@@ -110,7 +110,10 @@ Nutgiohang.addEventListener("click",()=>{
 function showcountsp() {
             var cartItem = document.querySelectorAll("tbody tr")
             document.getElementById("countsp").innerHTML = cartItem.length;
+            document.getElementById("countspa").innerHTML = cartItem.length;
         }
+        
+        
 
 
 //Render Sản phẩm

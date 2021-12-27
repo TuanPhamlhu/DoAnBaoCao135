@@ -358,6 +358,9 @@ body{
 
 
 /*Sản phẩm*/
+.gridwide{
+    display: none;
+}
 .main-product {
     margin-top: 60px;
     display: flex;
@@ -806,20 +809,16 @@ body{
     #wrapper{
         max-width:46.1875rem;
         box-sizing: border-box;
-      
     }
     #header1{
-        
         display: flex;
         padding:0px 0px;
         max-width:46.1875rem;
     }
-    
     .header1trai{
         margin: auto;
         min-width: 1rem;
     }
-  
     .header1phai{
         display:none
     }
@@ -832,14 +831,7 @@ body{
     .giohang{
         display: none;
     }
-    .main-product{
-        display: none;
-    }
-    .policymain{
-        display: none;
-        
-      
-    }
+   
     #footer{
         display: none;
     }
@@ -851,6 +843,9 @@ body{
     }
 
     /* header2 */
+    #header2{
+        display: none;
+    }
     #mobileHeader2{
        height: 70px;
        /* background-color: rgb(152, 152, 156); */
@@ -860,12 +855,24 @@ body{
     }
     .header2logo{
         display: none;
+        margin-right: 163px;
     }
 
     /* Giỏ Hàng */
+    #countspa{
+        color: rgb(117, 117, 117);
+        margin-left: -30px;
+        font-size: 1.8rem;
+        margin-right: 30px;
+        font-weight: 300;
+    }
     .giohanga{
         font-size: 2.7rem;
         color: rgb(0 0 0);
+        position: fixed;
+        z-index: 1000;
+        right: 0;
+        /* margin-right: -136px; */
     }
     .fa-cart-arrow-down{
         color:rgb(151, 148, 148);
@@ -874,23 +881,76 @@ body{
     .header2logoimg{
         width: 60px;
         margin: auto;
+        margin-right: 161px;
     }
    .fa-barsa{
         margin-left: 1.5rem;
         margin-top: 23px;
     }
 
-    /* Sản phẩm */
-    #root{
-        display:none;
-    }
+    
     
 
     /* Banner */
     .section-bg-phone{
-        display:none;
+        display:block;
+        height: 400px;
+        position: relative;
+        /* margin-top: 71px; */
+    }
+    .section-description {
+        left: 20px;
+        top: 40px;
+    }
+    .section-bg {
+        min-width: 362px;
+        background-position: 75% 21%;
+        height: 400px;
+    }
+    .big-img-name-product {
+        font-size: 30px;
+        width: 31rem;
+        margin-top: -6px;
+
     }
     
+    .big-img-birth {
+        font-size: 14px;
+        max-width: 200px; 
+    }
+    .big-img-time-sale {
+        font-size: 14px;
+        width: 31rem;
+        margin-top: -6px;
+
+    }
+    .btn-bg {
+        margin-top: 20px;
+        padding: 4px 8px;
+        font-size: 11px;
+        line-height: 14px;
+    }
+    .section-bg::after {
+        content: "";
+        position: absolute;
+        display: block;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background-color: #000;
+        opacity: 0.4;
+    }
+    .tag-a{
+        position:absolute;
+        left: -512px;
+    }
+    .fa-chevron-down{
+        font-size: 1.3rem;
+        position: absolute;
+    }
+
+
     /* NAV */
     #header2navmobile{
         box-sizing: border-box;
@@ -899,30 +959,26 @@ body{
         position: relative;
         z-index: 4;
         margin-top: -70px;
+        
         background-color: rgba(0, 0, 0, 0.4);
     }
-    
     .header2nav{
         margin-top: -10px;
         border-radius: 3px;
-        
     }
     .header2ul{
         flex-direction: column;
         display: flex;
         width: 86%;
-        margin-left: 10px;
-       
+        margin-left: 10px; 
     }
     .header2ul li{
         line-height: 4.5rem;
         border-bottom: 1px solid rgb(155, 155, 155);
         z-index: 1;
         font-size: 1.2rem;
-
     }
     .header2inputa{
-        
         margin-left: 31px;
         margin-top: -30px;
     }
@@ -934,25 +990,98 @@ body{
         font-size: 1.2rem;
         border-radius: 14px;
         margin-left: 13px;
-        margin-top: 20px;
-        
+        margin-top: 20px;   
     }
     .header2inputabi{
         margin-left: -37px;
     }
-
     .formnav{
         background-color: rgb(242, 242, 242);
         min-width: 28rem;
         position:absolute;
         top:0;
-        
+    }
+    .abtn{
+        color: var(--whitecolor--);
+        margin-top: 15px;
+        padding-top: 3px;
+        font-weight: 600;
+        border: 2px solid var(--whitecolor--);
+        max-width: 8rem;
+        /* font-size: 1.7rem; */
+        min-height: 2.5rem;
+        text-align: center;
+        border-radius: 6px;
+        transition-duration: 0.1s;
+        font-size: 11px;
+    }
+    
 
+    /* Sản Phẩm Nổi Bật */
+    .main-product{
+        display: none;
+    }
+    /* Sản phẩm */
+    #root{
+        max-width: 46.1875em;
+        padding-right: 8px;
+    }
+    #wrappersanpham
+    {
+        flex-wrap: wrap;
+        display: flex;
+        flex-wrap: wrap;
+        width: 98%;
+    }
+    .imgsp {
+        width: 180px;
+        height: 180px;
+    }
+    .sph2 {
+        width: 84%;
+        margin: auto;
+        margin-top: 6px;
+        /* min-height: 30px; */
+        font-weight: 500;
+        min-height: 52px;
+    }
+    .sanpham {
+        text-align: center;
+        width: 50%;
+    }
+    .forminputprice {
+        display: inline-flex;
+        margin: 0px;
+        padding-left: 10px;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-top: -10px;
+    }
+    .spbtn {
+        margin-top: -4px;
     }
 
-    /* .iconMobileHover:hover #header2navmobile{
-        display: block;
-    } */
+    /* Dịch vụ ưu đãi */
+    .policymain{
+        max-width: 35rem;
+        margin-top: 57px;
+    }
+    .policy{
+        display: flex;
+        flex-direction: column;
+        max-width: 35rem;
+    }
+    .policydiv{
+        max-width: 35rem;
+    }
+    .policyp{
+        max-width: 35rem;
+    }
+    .policyborder {
+        border-right: none;
+    }
+    
+
 
 }
 
