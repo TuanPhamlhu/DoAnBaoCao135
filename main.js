@@ -57,6 +57,31 @@ const Sanpham =[
       src: "./photos/maycu2.jpg",
       button: 'THÊM VÀO GIỎ HÀNG',
   },
+  {
+    name: 'iPhone 12 Pro Max 64GB LIKE NEW',
+    oldprice: '39.000.000',
+    newprice: '28.000.000',
+    src: "./photos/iphone22.jpg",
+    button: 'THÊM VÀO GIỎ HÀNG',
+}, {
+    name: 'Samsung S21 64GB LIKE NEW',
+    oldprice: '29.000.000',
+    newprice: '17.000.000',
+    src: "./photos/samsung4.jpg",
+    button: 'THÊM VÀO GIỎ HÀNG',
+}, {
+    name: 'Samsung A71 64GB cũ',
+    oldprice: '9.000.000',
+    newprice: '8.000.000',
+    src: "./photos/samsung2.jpg",
+    button: 'THÊM VÀO GIỎ HÀNG',
+}, {
+    name: 'Samsung A52 64GB cũ',
+    oldprice: '11.000.000',
+    newprice: '10.000.000',
+    src: "./photos/samsung3.jpg",
+    button: 'THÊM VÀO GIỎ HÀNG',
+},
 ]
 
 // Đóng mở nút giỏ hàng

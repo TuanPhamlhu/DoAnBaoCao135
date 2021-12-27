@@ -1,4 +1,6 @@
-
+body{
+    background-color: #fff;
+}
 .Formheader
 {
     position: fixed;
@@ -222,24 +224,34 @@
     margin-top: 10px;
     cursor: pointer;
 }
+
 .header2litc{
     color: var(--primarytext--);
+}
+.li1 .li2 .li3 .li4 .li5{
+    transition-duration: 0.1s;
+
 }
 
 .li1:hover {
     color: var(--primarytext--);
+    transform: scale(1.02);
 }
 .li2:hover {
     color: var(--primarytext--);
+    transform: scale(1.02);
 }
 .li3:hover {
     color: var(--primarytext--);
+    transform: scale(1.02);
 }
 .li4:hover {
     color: var(--primarytext--);
+    transform: scale(1.02);
 }
 .li5:hover {
     color: var(--primarytext--);
+    transform: scale(1.02);
 }
 
 /*banner*/
@@ -334,11 +346,14 @@
     min-height: 4rem;
     text-align: center;
     border-radius: 6px;
+    transition-duration: 0.1s;
+
 
 }
 .abtn:hover{
   background-color: var(--whitecolor--);
   color: #000;
+  transform: scale(1.02);
 }
 
 
@@ -451,6 +466,7 @@
 .imgsp:hover{
     transform: scale(1.04);
 }
+
 
 .sanpham{
     text-align: center;
@@ -714,10 +730,17 @@
     width: 1040px;
     margin:auto;
     min-height: 250px ;
+    margin-top: -39px;
+    
 
 }
 .policyicon{
     text-align: center;
+    transition-duration: 0.1s;
+}
+
+.policyicon:hover{
+    transform: scale(1.04);
 }
 .policydiv{
     /* background-color: red; */
@@ -812,6 +835,8 @@
     }
     .policymain{
         display: none;
+        
+      
     }
     #footer{
         display: none;
@@ -858,6 +883,7 @@
     #root{
         display:none;
     }
+    
 
     /* Banner */
     .section-bg-phone{
