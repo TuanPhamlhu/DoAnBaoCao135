@@ -789,7 +789,9 @@ body{
 #mobileHeader2{
     display: none;
 }
-
+#header2navmobile{
+    display: none;
+}
 
 
 
@@ -874,7 +876,6 @@ body{
         margin: auto;
     }
    .fa-barsa{
-        font-size:2rem;
         margin-left: 1.5rem;
         margin-top: 23px;
     }
@@ -890,6 +891,69 @@ body{
         display:none;
     }
     
+    /* NAV */
+    #header2navmobile{
+        box-sizing: border-box;
+        max-width: 38.1875rem;
+        min-height: 100rem;
+        position: relative;
+        z-index: 4;
+        margin-top: -70px;
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+    
+    .header2nav{
+        margin-top: -10px;
+        border-radius: 3px;
+        
+    }
+    .header2ul{
+        flex-direction: column;
+        display: flex;
+        width: 86%;
+        margin-left: 10px;
+       
+    }
+    .header2ul li{
+        line-height: 4.5rem;
+        border-bottom: 1px solid rgb(155, 155, 155);
+        z-index: 1;
+        font-size: 1.2rem;
+
+    }
+    .header2inputa{
+        
+        margin-left: 31px;
+        margin-top: -30px;
+    }
+    .header2inputab{
+        padding: 6px 10px;
+        min-width: 22rem;
+        outline: none;
+        border: 0.5px solid gray;
+        font-size: 1.2rem;
+        border-radius: 14px;
+        margin-left: 13px;
+        margin-top: 20px;
+        
+    }
+    .header2inputabi{
+        margin-left: -37px;
+    }
+
+    .formnav{
+        background-color: rgb(242, 242, 242);
+        min-width: 28rem;
+        position:absolute;
+        top:0;
+        
+
+    }
+
+    /* .iconMobileHover:hover #header2navmobile{
+        display: block;
+    } */
+
 }
 
 /* tablet: width 669px< x < 1023px */
@@ -914,6 +978,7 @@ body{
         margin-top: 100px;
         line-height: 70px;
     }
+
 }
 
 

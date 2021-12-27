@@ -234,6 +234,46 @@ var Render = Sanpham.map((item)=>{
 
 
 
+// MOBILE
+var mobileNav = document.getElementById("header2navmobile")
+function shownav(){
+  
+    if(mobileNav.style.display=="block")
+    {
+        mobileNav.style.display="none";
+    }
+    else
+    {
+        mobileNav.style.display="block"; 
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
