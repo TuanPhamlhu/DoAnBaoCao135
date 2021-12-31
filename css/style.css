@@ -1125,10 +1125,11 @@ body{
 .chitietsanpham_imgdiv{
     width: 450px;
     height: 450px;
+    margin-top: 20px;
 }
 .chitietsanpham_img{
     object-fit: cover;
-    width: 100%;
+    width: 90%;
 }
 .chitietsanpham_divphai{
     width: 50%;
