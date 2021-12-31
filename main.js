@@ -84,6 +84,8 @@ const Sanpham =[
 },
 ]
 
+
+
 // Đóng mở nút giỏ hàng
 document.getElementById("showcart").style.display="none";
 function showcart()

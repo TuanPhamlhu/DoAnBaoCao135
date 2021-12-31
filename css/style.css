@@ -1110,6 +1110,167 @@ body{
 
 }
 
+/*---------------------------------------SanPhamDetail-----------------------------------------------*/
+/*---------------------------------------SanPhamDetail_chitietsanpham--------------------------------*/
+#container_sanpham{
+    width: 80%;
+    margin: auto;
+    padding-top: 20px;
+    height: 10000px;
+}
+#chitietsanpham{
+    display: flex;
+    justify-content: space-between;
+}
+.chitietsanpham_imgdiv{
+    width: 450px;
+    height: 450px;
+}
+.chitietsanpham_img{
+    object-fit: cover;
+    width: 100%;
+}
+.chitietsanpham_divphai{
+    width: 50%;
+}
+.chitietsanpham_divphai_ten{
+    font-size: 2.8rem;
+    font-weight: 600;
+    margin-left: -10px;
+}
+.chitietsanpham_divphai_giacu{
+    font-size: 1.5rem;
+    text-decoration: line-through;
+    color: var(--spantext--);
+    margin-top: -10px;
+   
+}
+.chitietsanpham_divphai_giamoi{
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-top: -10px;
+    margin-bottom: 25px;
+   
+}
+.formbtn{
+
+}
+.formbtn_tren{
+    margin: 20px 0px;
+}
+.tren_64GB{
+    padding: 5px 18px;
+    font-size: 1.4rem;
+    margin-right: 10px;
+    background-color: var(--whitecolor--);
+    border: 1px solid rgb(230, 230, 230);
+    cursor: pointer;
+}
+.tren_128GB{
+    padding: 5px 18px;
+    font-size: 1.4rem;
+    margin-right: 10px;
+    background-color: var(--whitecolor--);
+    border: 1px solid rgb(230, 230, 230);
+    cursor: pointer;
+}
+.tren_256GB{
+    padding: 5px 18px;
+    font-size: 1.4rem;
+    background-color: var(--whitecolor--);
+    border: 1px solid rgb(230, 230, 230);
+    cursor: pointer;
+}
+.formbtn_tren{
+    margin-top: 10px;
+    background-color: var(--whitecolor--);
+}
+.Maudo{
+    padding:5px 14px;
+    font-size: 1.4rem;
+    margin-right: 10px;
+    background-color: var(--whitecolor--);
+    border: 1px solid rgb(230, 230, 230);
+    cursor: pointer;
+}
+.Maugold{
+    padding:5px 14px;
+    font-size: 1.4rem;
+    margin-right: 10px;
+    background-color: var(--whitecolor--);
+    border: 1px solid rgb(230, 230, 230);
+    cursor: pointer;
+}
+.Mautrang{
+    padding:5px 14px;
+    font-size: 1.4rem;
+    margin-right: 10px;
+    background-color: var(--whitecolor--);
+    border: 1px solid rgb(230, 230, 230);
+    cursor: pointer;
+}
+.Mauxanh{
+    padding:5px 14px;
+    font-size: 1.4rem;
+    background-color: var(--whitecolor--);
+    border: 1px solid rgb(230, 230, 230);
+    cursor: pointer;
+}
+.forminfo{
+    list-style-type: circle;
+    margin-top: 35px;
+    margin-left: -23px;
+}
+.forminfo li{
+    font-size: 1.6rem;
+    width: 82%;
+    margin-bottom: 15px;
+    line-height: 2.1rem; 
+}
+.inputnutdathang{
+    padding: 10px 6px;
+    /* margin: auto; */
+    font-size: 1.2rem;
+    padding-top: 9px;
+    max-width: 10%;
+    border-radius: 5px;
+    border: 1px solid #c7c7c7;
+}
+.nutdathang_btn{
+    padding: 9px;
+    background-color: var(--primarytext--);
+    color: var(--whitecolor--);
+    font-size: 1.3rem;
+    margin-left: 18px;
+    border-radius: 3px;
+    /* outline: none; */
+    border: none;
+}
+.tinhtrang{
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #00a500b8;
+}
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
