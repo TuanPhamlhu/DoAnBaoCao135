@@ -247,11 +247,12 @@ function showcountsp() {
     document.getElementById("countsp").innerHTML = cartItem.length;
     document.getElementById("countspa").innerHTML = cartItem.length;
 }
-        
+     
+//Khi nhấn img sẽ chuyển trang
 window.getDetail = (index) => {
     localStorage.setItem('currentDetails', index)
     console.log(index);
-    return  window.location.href='details.html'
+    return  window.location.href='Details.html'
 }
 
 
