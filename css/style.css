@@ -261,8 +261,8 @@ body{
 
 }
 .section-bg{
-    /* background-image: url(https://tonycongmmo.com/wp-content/uploads/2020/09/slider8-3.jpg); */
-    background-image: url(https://agogo.com.ng/wp-content/uploads/2021/05/slider8-3.jpg);
+    background-image: url(https://tonycongmmo.com/wp-content/uploads/2020/09/slider8-3.jpg);
+    /* background-image: url(https://agogo.com.ng/wp-content/uploads/2021/05/slider8-3.jpg); */
     height: 560px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -421,17 +421,17 @@ body{
     display: block;
 }
 .main-procduct1-1 {
-    /* background-image: url(https://tonycongmmo.com/wp-content/uploads/2020/09/product-10.jpg); */
-    background-image: url(https://images.pexels.com/photos/163143/sackcloth-sackcloth-textured-laptop-ipad-163143.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-image: url(https://tonycongmmo.com/wp-content/uploads/2020/09/product-10.jpg);
+    /* background-image: url(https://images.pexels.com/photos/163143/sackcloth-sackcloth-textured-laptop-ipad-163143.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940); */
 }
 .main-procduct2-2 {
-    /* background-image: url(https://tonycongmmo.com/wp-content/uploads/2020/09/banner-3.jpg); */
-    background-image: url(https://images.pexels.com/photos/159643/laptop-ipad-organic-natural-159643.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-image: url(https://tonycongmmo.com/wp-content/uploads/2020/09/banner-3.jpg);
+    /* background-image: url(https://images.pexels.com/photos/159643/laptop-ipad-organic-natural-159643.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500); */
 }
 
 .main-procduct3-3 {
-    /* background-image: url(https://tonycongmmo.com/wp-content/uploads/2020/09/hero-1-1024x306.jpg); */
-    background-image: url(https://images.pexels.com/photos/8597722/pexels-photo-8597722.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-image: url(https://tonycongmmo.com/wp-content/uploads/2020/09/hero-1-1024x306.jpg);
+    /* background-image: url(https://images.pexels.com/photos/8597722/pexels-photo-8597722.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500); */
 }
 .main-reduce-price {
     font-weight: 100;
@@ -1267,6 +1267,13 @@ body{
 
 
 
+/*--------------------------CART----------------------------------------*/
+.donhangcart{
+    margin: auto;
+}
+
+
+
 
 
 
@@ -1655,7 +1662,8 @@ h1 {
 .boxtrai {
     float: left;
     width: 74%;
-    background-image: linear-gradient(rgb(220 220 220), rgb(220 220 220));
+    margin-left: 179px;
+
     border: 1px solid rgb(228, 226, 226);
 }
 
@@ -1828,14 +1836,15 @@ table {
 }
 
 th {
-    background-color: #999;
+    
     padding: 10px;
 }
 
 th,
 td {
-    border: 1px #CCC solid;
+
     text-align: center;
+    border-bottom: 1px solid rgb(228, 228, 228);
 }
 
 td div {
@@ -2067,11 +2076,11 @@ td img {
 
 .dongy {
     width: 150px;
-    border: 1px #F90 solid;
-    background-image: linear-gradient(#F90, #F60);
+    border: 1px rgb(255, 255, 255) solid;
+    background-image: linear-gradient(rgb(27, 27, 27), rgb(27, 27, 27));
     padding: 10px;
     border-radius: 5px;
-    color: #FFF;
+    color: rgb(255, 255, 255);
     font-weight: bold;
     float: right;
     margin-right: 10px;
@@ -2079,7 +2088,8 @@ td img {
 }
 
 .dongy:hover {
-    background-image: linear-gradient(rgb(241, 157, 0), rgb(180, 106, 21));
+    color: rgb(207, 207, 207);
+
     cursor: pointer;
 }
 
@@ -2094,6 +2104,7 @@ td img {
 
 .h1giohang{
     padding-left: 10px ;
+    color: #505050;
 }
 
 #thongtinnhanhang tr td {

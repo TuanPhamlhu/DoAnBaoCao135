@@ -221,6 +221,7 @@ localStorage.setItem('danhsachsanpham', JSON.stringify(Sanpham))
 
 // Đóng mở nút giỏ hàng
 document.getElementById("showcart").style.display="none";
+
 function showcart()
             {
               var x= document.getElementById("showcart")
@@ -240,7 +241,6 @@ Nutgiohang.addEventListener("click",()=>{
     showcart()
 })
 
-
 //hàm đếm số lượng sản phẩm đã đặt
 function showcountsp() {
     var cartItem = document.querySelectorAll("tbody tr")
@@ -254,7 +254,6 @@ window.getDetail = (index) => {
     console.log(index);
     return  window.location.href='Details.html'
 }
-
 
 //Render Sản phẩm
 var Boxrender = document.getElementById("wrappersanpham")
@@ -272,13 +271,11 @@ var Render = Sanpham.map((item, index)=>{
       </div>
     `})
     
-
     Boxrender.innerHTML=Render.join('');
-
-
 
 //Hàm Lấy Sản Phẩm Đưa Vào Giỏ Hàng
     const btn = document.querySelectorAll(".spbtn")
+    var giohang= document.querySelector(".giohang")
     btn.forEach((button,index)=>
     {
         button.addEventListener("click",(e)=>{
@@ -290,16 +287,10 @@ var Render = Sanpham.map((item, index)=>{
             
             //tạo hàm chứa sản phẩm
             addcart(productImg,productName,productPrice)
-            
+           
             showcountsp() 
         })
     })
-
-
-    
-
-
-
 
 
 //hàm xử lý thêm sản phẩm vào giỏ
@@ -319,12 +310,18 @@ var Render = Sanpham.map((item, index)=>{
             var cartTable = document.querySelector("tbody")
             cartTable.append(addtr)
 
+            // var giohang= document.querySelector(".giohang")
+            // var manggiohang = new Array(productImg,productName,productPrice)
+            // giohang.forEach(()=>{
+               
+            //     localStorage.setItem("giohang",JSON.stringify(manggiohang));
+            // })
+            localStorage.setItem("giohang",JSON.stringify())
+           
+          
             carttotal()
             deleteCart()
     }
-    
-
-
 
 
 // Total
@@ -343,8 +340,6 @@ var Render = Sanpham.map((item, index)=>{
         cartTotalA.innerHTML= totalC.toLocaleString('de-DE')
         inputchange()
     }
-
-
 
 //Hàm Xóa
     function deleteCart(){
@@ -405,6 +400,12 @@ function shownav(){
 //     console.log(e.target.getAttribute('idsanpham'));
 // })
 
+
+
+/*---------------------------CART---------------------------*/
+//Trang Thanh toán cart.html
+
+// showgiohang_trangthanhtoan();
 
 
 
