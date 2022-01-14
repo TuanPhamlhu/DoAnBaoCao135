@@ -288,6 +288,9 @@ var Render = Sanpham.map((item, index)=>{
             //tạo hàm chứa sản phẩm
             addcart(productImg,productName,productPrice)
            
+             //đưa lên localstorage
+             
+           
             showcountsp() 
         })
     })
@@ -299,7 +302,7 @@ var Render = Sanpham.map((item, index)=>{
             var cartItem = document.querySelectorAll("tbody tr")
             for(var i = 0; i < cartItem.length;i++){
                 var productT = document.querySelectorAll(".title")
-                if(productT[i].innerHTML== productName)
+                if(productT[i].innerHTML == productName)
                 {
                     alert('Sản phẩm của bạn đã có trong giỏ hàng')
                     return
@@ -309,15 +312,16 @@ var Render = Sanpham.map((item, index)=>{
             addtr.innerHTML=trcontent
             var cartTable = document.querySelector("tbody")
             cartTable.append(addtr)
+            // console.log(trcontent)
 
-            // var giohang= document.querySelector(".giohang")
-            // var manggiohang = new Array(productImg,productName,productPrice)
-            // giohang.forEach(()=>{
-               
-            //     localStorage.setItem("giohang",JSON.stringify(manggiohang));
-            // })
-            localStorage.setItem("giohang",JSON.stringify())
+              
+            
            
+            // console.log(giohang)
+            
+            // var Manggiohang = document.querySelector(trcontent)
+            
+            
           
             carttotal()
             deleteCart()

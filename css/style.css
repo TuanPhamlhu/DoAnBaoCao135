@@ -261,8 +261,8 @@ body{
 
 }
 .section-bg{
-    background-image: url(https://tonycongmmo.com/wp-content/uploads/2020/09/slider8-3.jpg);
-    /* background-image: url(https://agogo.com.ng/wp-content/uploads/2021/05/slider8-3.jpg); */
+    /* background-image: url(https://tonycongmmo.com/wp-content/uploads/2020/09/slider8-3.jpg); */
+    background-image: url(https://agogo.com.ng/wp-content/uploads/2021/05/slider8-3.jpg);
     height: 560px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -421,17 +421,17 @@ body{
     display: block;
 }
 .main-procduct1-1 {
-    background-image: url(https://tonycongmmo.com/wp-content/uploads/2020/09/product-10.jpg);
-    /* background-image: url(https://images.pexels.com/photos/163143/sackcloth-sackcloth-textured-laptop-ipad-163143.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940); */
+    /* background-image: url(https://tonycongmmo.com/wp-content/uploads/2020/09/product-10.jpg); */
+    background-image: url(https://images.pexels.com/photos/163143/sackcloth-sackcloth-textured-laptop-ipad-163143.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
 }
 .main-procduct2-2 {
-    background-image: url(https://tonycongmmo.com/wp-content/uploads/2020/09/banner-3.jpg);
-    /* background-image: url(https://images.pexels.com/photos/159643/laptop-ipad-organic-natural-159643.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500); */
+    /* background-image: url(https://tonycongmmo.com/wp-content/uploads/2020/09/banner-3.jpg); */
+    background-image: url(https://images.pexels.com/photos/159643/laptop-ipad-organic-natural-159643.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
 }
 
 .main-procduct3-3 {
-    background-image: url(https://tonycongmmo.com/wp-content/uploads/2020/09/hero-1-1024x306.jpg);
-    /* background-image: url(https://images.pexels.com/photos/8597722/pexels-photo-8597722.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500); */
+    /* background-image: url(https://tonycongmmo.com/wp-content/uploads/2020/09/hero-1-1024x306.jpg); */
+    background-image: url(https://images.pexels.com/photos/8597722/pexels-photo-8597722.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
 }
 .main-reduce-price {
     font-weight: 100;
